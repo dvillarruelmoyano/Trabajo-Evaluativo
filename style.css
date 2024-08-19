@@ -1,0 +1,11 @@
+body {
+    background-image: url(https://img.freepik.com/vector-premium/fondo-juego-noche-desierto_7814-293.jpg);
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction:column;
+  }
