@@ -15,16 +15,16 @@ let getRandomNumber = size => {
   // return an String depending on the distances
   let getDistanceHint = distance => {
     if (distance < 40) {
-      return "Mucho calor";
-    } else if (distance < 60) {
       return "Muy caliente";
-    } else if (distance < 80) {
+    } else if (distance < 70) {
+      return "Mucho calor" ;
+    } else if (distance < 90) {
       return "Caliente";
-    } else if (distance < 120) {
+    } else if (distance < 130) {
       return "Calido";
-    } else if (distance < 200) {
+    } else if (distance < 210) {
       return "Frio";
-    } else if (distance < 380) {
+    } else if (distance < 390) {
       return "Muy frio";
     } else {
       return "Congelado";
